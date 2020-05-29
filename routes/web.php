@@ -18,4 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/','BooksController@index');
 Route::get('/issuebook','BooksController@issue');
-Route::get('/returnbook','BooksController@return');
+Route::get('/returnbook/{id}','BooksController@returnbook');
+Route::post('/issuebook/store','BooksController@store');
+Route::get('/duelist','BooksController@duelist');
+Route::get('/studentreport','BooksController@studentreport');

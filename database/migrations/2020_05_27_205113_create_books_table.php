@@ -20,7 +20,9 @@ class CreateBooksTable extends Migration
             $table->string('role');
             $table->date('issuedate');
             $table->date('duedate');
-            $table->date('returndate');
+            $table->string('status');
+            $table->date('returndate')->nullable()->default(null);
+            
             $table->timestamps();
         });
     }
