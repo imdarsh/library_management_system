@@ -13,7 +13,7 @@
         <a class="nav-link" href="/issuebook">Issue a Book <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/studentreport">Student Report <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/studentreport">Report <span class="sr-only">(current)</span></a>
       </li>    
       <li class="nav-item active">
         <a class="nav-link" href="/duelist">Due List <span class="sr-only">(current)</span></a>

@@ -62,6 +62,7 @@
         <td>{{$returnedbook->returndate}}</td>
         </tr>
     @endforeach
+    
     @else
         <h5 class="page-title">No Data Found</h5>
   @endif

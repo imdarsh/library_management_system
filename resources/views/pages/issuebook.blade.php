@@ -34,7 +34,6 @@
             <select class="form-control" name="status">
                 <option value="">Choose Status..</option>
                 <option value="Issued">Issued</option>
-                <option value="Returned">Returned</option>
             </select>
         </div>
         <div class="form-group">

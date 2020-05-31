@@ -62,7 +62,9 @@ class BooksController extends Controller
 
     //This function shows the student wise report
     public function studentreport() {
-        $report = books::orderBy('id','DESC')->get();
-        return view('pages.studentreport')->with('report',$report);
+        
+        $report = books::where('role','Student')->orderBy('id','DESC')->get();
+        $report2 = books::where('role','Teacher')->orderBy('id','DESC')->get();
+        return view('pages.studentreport',['report'=>$report,'report2'=>$report2]);
     }
 }
